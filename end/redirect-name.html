@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Redirect - Vue Router</title>
+    <title>Redirect (name) - Vue Router</title>
   </head>
   <body>
     <div id="app">
@@ -21,9 +21,10 @@
         routes: [
           {
             path: '/a',
-            redirect: '/b'
+            redirect: { name: 'page-b'}
           },
           {
+            name: 'page-b',
             path: '/b',
             component: B
           }
