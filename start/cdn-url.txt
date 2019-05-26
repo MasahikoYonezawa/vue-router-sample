@@ -1,2 +1,2 @@
 <script src="https://unpkg.com/vue@2.6.10"></script>
-    <script src="https://unpkg.com/vue-router@3.0.6"></script>
+<script src="https://unpkg.com/vue-router@3.0.6"></script>
